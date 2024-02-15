@@ -147,3 +147,32 @@ img {
     max-width: 100%;
     display: block;
 }
+
+mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-inline-flex {
+    display: inline-flex !important;
+}
+
+.display-1 {
+    font-family: var(--display-1-font-family) !important;
+    font-size: var(--display-1-font-size);
+    font-weight: var(--display-1-font-weight) !important;
+    line-height: var(--display-1-line-height) !important;
+    font-style: var(--display-1-font-style) !important;
+    text-transform: var(--display-1-text-transform);
+    letter-spacing: var(--display-1-letter-spacing);
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.tw-text-template-lead {
+    color: var(--template-lead)!important;
+}
