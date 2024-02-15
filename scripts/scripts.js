@@ -16,13 +16,4 @@ WebFont.load({
         "Source Sans Pro:200,300,regular,600,700,900"
       ]
     }
-  });
-
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+});
