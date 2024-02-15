@@ -280,6 +280,10 @@ div {
     padding-right: 1.5rem !important;
 }
 
+#profile-name {
+    margin-top: 10px;
+}
+
 .w-100{
     width: 100%;
 }
@@ -675,6 +679,10 @@ a {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.btn {
+    margin-bottom: 40px;
+}
+
 .text-nowrap {
     white-space: nowrap !important;
 }
@@ -742,4 +750,151 @@ a {
 svg {
     overflow: hidden;
     vertical-align: middle;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+mw-800px, .identity-generic-section {
+    max-width: 800px;
+}
+.position-relative, .college-landing-page__infinite-scroll-container, .identity__page-header, .identity__page-metadata-header, .identity__page-container, .identity-generic-section {
+    position: relative !important;
+}
+.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+    margin-left: auto !important;
+}
+
+mb-4, .college-landing-page__title-text, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+.align-items-center, .college-landing-page__section-contents, .college-landing-page__section-container--column, .college-landing-page__faq-content, .college-landing-page__how-it-works-card, .college-landing-page__how-it-works-cards, .college-landing-page__hero-text-container, .college-landing-page__hero-contents, .college-landing-page__hero-container, .college-landing-page__faq-question, .college-landing-page__app-download-button {
+    align-items: center !important;
+}
+.justify-content-between, .college-landing-page__how-it-works-card-3, .college-landing-page__how-it-works-card--bottom-overflow, .college-landing-page__faq-question {
+    justify-content: space-between !important;
+}
+
+.pb-0, .no-padding-bottom-for-last-child>:last-child, .py-0 {
+    padding-bottom: 0 !important;
+}
+.border-top-0, .no-top-border-for-first-child>:first-child {
+    border-top: 0 !important;
+}
+.pb-0, .no-padding-bottom-for-last-child>:last-child, .py-0 {
+    padding-bottom: 0 !important;
+}
+
+.no-top-padding-for-first-child>:first-child {
+    padding-top: 0 !important;
+}
+
+.identity-generic-section-text-content {
+    max-width: 580px;
+}
+
+.border-top-0, .no-top-border-for-first-child>:first-child {
+    border-top: 0 !important;
+}
+
+mw-832px, .identity__page-container.--constrained {
+    max-width: 832px;
+}
+.identity__page-container.--the-o-g-profile {
+    padding-top: 0 !important;
+    top: -40px;
+}
+.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+    margin-left: auto !important;
+}
+
+.identity__page-container.--constrained {
+    margin-right: auto !important;
+}
+.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+    margin-left: auto !important;
+}
+
+.identity__page-container.--the-o-g-profile {
+    padding-top: 0 !important;
+    top: -40px;
+}
+
+.identity__page-container, .identity-generic-section {
+    position: relative !important;
+}
+@media (min-width: 1024px) {
+    .pl-lg-0, .px-lg-0, .identity__page-container {
+        padding-left: 0 !important;
+    }
+
+        @media (min-width: 1024px) {
+        .pr-lg-0, .px-lg-0, .identity__page-container {
+            padding-right: 0 !important;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .pt-md-5, .identity__page-container, .py-md-5 {
+        padding-top: 2rem !important;
+    }
+        @media (min-width: 576px) {
+        .pb-sm-8\.5, .identity__page-container, .py-sm-8\.5 {
+            padding-bottom: 5rem !important;
+        }
+    }
+}
+
+.pb-6, .identity__page-container, .py-6, .identity__template-profile-placeholder-container {
+    padding-bottom: 2.5rem !important;
+}
+
+.identity-generic-sections {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+@media (min-width: 768px) {
+.pl-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
+    padding-left: 0 !important;
+}
+}
+@media (min-width: 768px) {
+.pr-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
+    padding-right: 0 !important;
+}
+}
+.pb-9, .identity-generic-sections, .py-9 {
+    padding-bottom: 7.5rem !important;
+}
+@media (min-width: 768px) {
+.pl-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
+    padding-left: 0 !important;
+}
+}
+
+.identity-generic-background-wrapper, .identity-navbar-section-wrapper, .identity-header-section-wrapper, .identity-footer-section-wrapper {
+    padding: 16px 16px !important;
+    position: relative;
+}
+
+.identity-generic-section {
+    max-width: 800px;
+}
+.position-relative, .college-landing-page__infinite-scroll-container, .identity__page-header, .identity__page-metadata-header, .identity__page-container, .identity-generic-section {
+    position: relative !important;
+}
+.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+    margin-left: auto !important;
+}
+
+.identity-generic-background-wrapper, .identity-navbar-section-wrapper, .identity-header-section-wrapper, .identity-footer-section-wrapper {
+    padding: 16px 16px !important;
+    position: relative;
+}
+
+article {
+    border-bottom: #000008 solid 1px ;
+    margin-bottom: 10px;
 }
