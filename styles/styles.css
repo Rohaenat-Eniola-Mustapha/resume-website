@@ -94,3 +94,56 @@ div {
     margin: 64px 0px !important;
     position: relative;
 }
+
+.position-relative {
+    position: relative !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.avatar-size-xl-5 {
+    height: 128px;
+    text-align: center;
+    width: 128px !important;
+    font-size: 57.6px;
+}
+
+.avatar-size-xl-5 {
+    height: 128px;
+    text-align: center;
+    width: 128px !important;
+    font-size: 57.6px;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.avatar-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar.rounded-circle .avatar-image img {
+    border-radius: 50%;
+}
+
+.avatar-size-xl-5 img {
+    height: 128px;
+    width: 128px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    display: block;
+}
