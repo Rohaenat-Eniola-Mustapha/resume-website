@@ -676,7 +676,6 @@ a {
     font-size: 0.875rem;
     line-height: 20px;
     border-radius: 0.5rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .btn {
@@ -897,4 +896,12 @@ mw-832px, .identity__page-container.--constrained {
 article {
     border-bottom: #000008 solid 1px ;
     margin-bottom: 10px;
+}
+
+.horizontal-centered {
+    border-top: #000008 0.5px solid;
+}
+
+.tw-border-t {
+    border-bottom: #24252d 0.5px solid;
 }
