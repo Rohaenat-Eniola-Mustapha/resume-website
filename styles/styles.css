@@ -628,7 +628,8 @@ a {
     display: none;
 }
 
-.pointer-cursor, .college-landing-page__faq-question {
+.pointer-cursor, 
+.college-landing-page__faq-question {
     cursor: pointer;
 }
 
@@ -712,7 +713,8 @@ a {
     right: 0!important;
 }
 
-.identity__page-header .identity-profile-social-links-section:not(.--preview) {
+.identity__page-header 
+.identity-profile-social-links-section:not(.--preview) {
     margin-top: 4px !important;
 }
 
@@ -724,7 +726,8 @@ a {
     top: 0;
 }
 
-.pe-none, .identity__template-profile-placeholder-container {
+.pe-none, 
+.identity__template-profile-placeholder-container {
     pointer-events: none;
 }
 
@@ -765,23 +768,42 @@ mw-800px, .identity-generic-section {
     margin-left: auto !important;
 }
 
-mb-4, .college-landing-page__title-text, .my-4 {
+.mb-4, 
+.college-landing-page__title-text, 
+.my-4 {
     margin-bottom: 1.5rem !important;
 }
-.align-items-center, .college-landing-page__section-contents, .college-landing-page__section-container--column, .college-landing-page__faq-content, .college-landing-page__how-it-works-card, .college-landing-page__how-it-works-cards, .college-landing-page__hero-text-container, .college-landing-page__hero-contents, .college-landing-page__hero-container, .college-landing-page__faq-question, .college-landing-page__app-download-button {
+.align-items-center, 
+.college-landing-page__section-contents, 
+.college-landing-page__section-container--column, 
+.college-landing-page__faq-content, 
+.college-landing-page__how-it-works-card, 
+.college-landing-page__how-it-works-cards, 
+.college-landing-page__hero-text-container, 
+.college-landing-page__hero-contents, 
+.college-landing-page__hero-container, 
+.college-landing-page__faq-question, 
+.college-landing-page__app-download-button {
     align-items: center !important;
 }
-.justify-content-between, .college-landing-page__how-it-works-card-3, .college-landing-page__how-it-works-card--bottom-overflow, .college-landing-page__faq-question {
+.justify-content-between, 
+.college-landing-page__how-it-works-card-3, 
+.college-landing-page__how-it-works-card--bottom-overflow, 
+.college-landing-page__faq-question {
     justify-content: space-between !important;
 }
 
-.pb-0, .no-padding-bottom-for-last-child>:last-child, .py-0 {
+.pb-0, 
+.no-padding-bottom-for-last-child>:last-child, 
+.py-0 {
     padding-bottom: 0 !important;
 }
-.border-top-0, .no-top-border-for-first-child>:first-child {
+.border-top-0, 
+.no-top-border-for-first-child>:first-child {
     border-top: 0 !important;
 }
-.pb-0, .no-padding-bottom-for-last-child>:last-child, .py-0 {
+.pb-0, 
+.no-padding-bottom-for-last-child>:last-child, .py-0 {
     padding-bottom: 0 !important;
 }
 
@@ -793,25 +815,43 @@ mb-4, .college-landing-page__title-text, .my-4 {
     max-width: 580px;
 }
 
-.border-top-0, .no-top-border-for-first-child>:first-child {
+.border-top-0, 
+.no-top-border-for-first-child>:first-child {
     border-top: 0 !important;
 }
 
-mw-832px, .identity__page-container.--constrained {
+.mw-832px, 
+.identity__page-container.--constrained {
     max-width: 832px;
 }
 .identity__page-container.--the-o-g-profile {
     padding-top: 0 !important;
     top: -40px;
 }
-.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+.ml-auto, 
+.mx-auto, 
+.inspiration--carousel-card-social-card, 
+.identity-generic-section, 
+.identity__profile-container, 
+.identity__sidebar-editor-inner-container, 
+.identity__generic-components-double-column-layout--masonry-component, 
+.identity__template-profile-placeholder-container, 
+.identity__page-container.--constrained {
     margin-left: auto !important;
 }
 
 .identity__page-container.--constrained {
     margin-right: auto !important;
 }
-.ml-auto, .mx-auto, .inspiration--carousel-card-social-card, .identity-generic-section, .identity__profile-container, .identity__sidebar-editor-inner-container, .identity__generic-components-double-column-layout--masonry-component, .identity__template-profile-placeholder-container, .identity__page-container.--constrained {
+.ml-auto, 
+.mx-auto, 
+.inspiration--carousel-card-social-card, 
+.identity-generic-section, 
+.identity__profile-container, 
+.identity__sidebar-editor-inner-container, 
+.identity__generic-components-double-column-layout--masonry-component, 
+.identity__template-profile-placeholder-container, 
+.identity__page-container.--constrained {
     margin-left: auto !important;
 }
 
@@ -904,4 +944,112 @@ article {
 
 .tw-border-t {
     border-bottom: #24252d 0.5px solid;
+}
+
+.identity-body 
+.form-group>label, 
+.identity-body 
+.form-group label {
+    color: var(--template-secondary) !important;
+}
+
+.caption-1, 
+.college-landing-page__students-title {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.text-muted {
+    color: #666c7e !important;
+}
+
+.text-muted {
+    color: #666c7e !important;
+}
+
+.text-muted {
+    color: #666c7e !important;
+}
+
+.text-muted {
+    color: #666c7e !important;
+}
+
+.identity-body .form-control, .identity-body .search-input, .identity-body .search-input-mobile {
+    transition: none;
+    background-color: var(--template-stroke-opacity-30);
+    border: 2px solid var(--template-stroke);
+    color: var(--template-text);
+}
+textarea.form-control, textarea.search-input-mobile, textarea.search-input {
+    height: auto;
+}
+.form-control, .search-input-mobile, .search-input {
+    transition: none;
+    border: 2px solid #f1f4f9;
+}
+.form-control, .search-input-mobile, .search-input {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding: 0.875rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.4285;
+    color: #333342;
+    background-color: #f1f4f9;
+    background-clip: padding-box;
+    border: 2px solid #f1f4f9;
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+textarea {
+    resize: none;
+}
+
+@media only screen and (max-width: 768px){
+    select, textarea, input:not(.btn):not(.college-landing-page__app-download-button):not(.banner__button):not(.impersonation-footer__button) {
+        font-size: 16px !important;
+    }
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.tw-items-center {
+    align-items: center!important;
+}
+
+.tw-flex {
+    display: flex!important;
+}
+
+.tw-text-template-text-opacity-50 {
+    color: var(--template-text-opacity-50)!important;
+}
+
+.tw-items-center {
+    align-items: center!important;
+}
+
+.tw-flex {
+    display: flex!important;
+}
+
+.tw-ml-4 {
+    margin-left: 1rem!important;
 }
