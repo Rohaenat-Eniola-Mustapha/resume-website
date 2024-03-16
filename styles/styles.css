@@ -370,7 +370,7 @@ img {
     display: block;
 }
 
-mt-2 {
+.mt-2 {
     margin-top: 0.5rem !important;
 }
 
@@ -758,7 +758,7 @@ svg {
     margin-top: 20px;
 }
 
-mw-800px, .identity-generic-section {
+.mw-800px, .identity-generic-section {
     max-width: 800px;
 }
 .position-relative, .college-landing-page__infinite-scroll-container, .identity__page-header, .identity__page-metadata-header, .identity__page-container, .identity-generic-section {
@@ -894,19 +894,23 @@ mw-800px, .identity-generic-section {
     padding-left: 24px;
     padding-right: 24px;
 }
+
 @media (min-width: 768px) {
-.pl-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
-    padding-left: 0 !important;
+    .pl-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
+        padding-left: 0 !important;
+    }
 }
-}
+
 @media (min-width: 768px) {
-.pr-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
-    padding-right: 0 !important;
+    .pr-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
+        padding-right: 0 !important;
+    }
 }
-}
+
 .pb-9, .identity-generic-sections, .py-9 {
     padding-bottom: 7.5rem !important;
 }
+
 @media (min-width: 768px) {
 .pl-md-0, .px-md-0, .college-landing-page__hero-text-container, .identity-generic-sections {
     padding-left: 0 !important;
@@ -982,9 +986,11 @@ article {
     border: 2px solid var(--template-stroke);
     color: var(--template-text);
 }
+
 textarea.form-control, textarea.search-input-mobile, textarea.search-input {
     height: auto;
 }
+
 .form-control, .search-input-mobile, .search-input {
     transition: none;
     border: 2px solid #f1f4f9;
@@ -1004,6 +1010,7 @@ textarea.form-control, textarea.search-input-mobile, textarea.search-input {
     border-radius: 0.5rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 textarea {
     resize: none;
 }

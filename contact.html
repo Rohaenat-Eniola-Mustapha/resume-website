@@ -7,7 +7,7 @@
         <link rel="icon" type="image/x-icon" href="images/logo-light.png">
         <meta content="summary_large_image" name="twitter:card">
         <title>Contact</title>
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/contact.css">
         <link href="https://fonts.googleapis.com" rel="preconnect">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
@@ -206,30 +206,25 @@
                     </turbo-frame>
                 </div>
             </div>
-            <footer class="mw-800px w-100 position-absolute b-0 px-4 px-lg-0 horizontal-centered">
-                <div class="d-flex flex-column flex-sm-row justify-content-between tw-border-t tw-border-template-stroke py-3 align-items-center">
-                    <div class="identity-footer-section-wrapper identity-profile-details-section identity-profile-details-2897982-section  ">
-                        <div class="">
-                            <ul class="list-inline subtitle-2 mb-0 mx-auto mx-sm-0">
-                                <li class="list-inline-item d-inline caption-2 tw-text-template-text">Rohaenat Mustapha</li>
-                                <li class="list-inline-item d-inline caption-2 tw-text-template-text">@rohaenat_mustaph</li>
-                                <li class="list-inline-item d-inline caption-2 tw-text-template-text">Ogun State</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="identity-footer-section-wrapper identity-profile-social-links-section identity-profile-social-links-2897989-section  ">
-                        <div class="">
-                            <div class="d-flex flex-wrap justify-content-center justify-content-sm-end caption-2">
-                                <a class="icon-button hover:tw-bg-template-stroke-opacity-30" id="social-link-101307" alt="linkedin.com" target="_blank" data-toggle="tooltip" data-placement="top" data-title="linkedin.com" rel="nofollow" href="https://www.linkedin.com/in/rohaenat-mustapha-897020269/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" class="tw-text-template-secondary">
-                                        <path d="M18.8571 4H5.13929C4.51071 4 4 4.51786 4 5.15357V18.8464C4 19.4821 4.51071 20 5.13929 20H18.8571C19.4857 20 20 19.4821 20 18.8464V5.15357C20 4.51786 19.4857 4 18.8571 4ZM8.83571 17.7143H6.46429V10.0786H8.83928V17.7143H8.83571ZM7.65 9.03571C6.88929 9.03571 6.275 8.41786 6.275 7.66071C6.275 6.90357 6.88929 6.28571 7.65 6.28571C8.40714 6.28571 9.025 6.90357 9.025 7.66071C9.025 8.42143 8.41071 9.03571 7.65 9.03571ZM17.725 17.7143H15.3536V14C15.3536 13.1143 15.3357 11.975 14.1214 11.975C12.8857 11.975 12.6964 12.9393 12.6964 13.9357V17.7143H10.325V10.0786H12.6V11.1214H12.6321C12.95 10.5214 13.725 9.88929 14.8786 9.88929C17.2786 9.88929 17.725 11.4714 17.725 13.5286V17.7143Z" fill="currentColor"></path>
-                                    </svg>                                        
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </main>
+        <turbo-frame data-controller="turbo-frame-modal" id="modal_container"></turbo-frame>
+        <turbo-cable-stream-source __unsafe__="false" channel="Turbo::StreamsChannel" signed-stream-name="IloybGtPaTh2Y0c5c2VYZHZjbXN2VlhObGNpOHpNekl3TVRrOnRvYXN0cyI=--0d317af78145b48fa22e3a85fee5b842dd1354a932699dd45bc971b83330fedf"></turbo-cable-stream-source>
+        <turbo-frame id="toasts">
+            <ul class="toast-container list-unstyled text-center px-3" id="toasts-container" data-controller="toasts" data-toast-insertion-target="container"></ul>
+    </turbo-frame>
+    <div class="d-none">
+        <li class="mb-2" data-toast-insertion-target="template">
+          
+        <div class="toast bg-notice mb-2 hide" data-autohide="true" data-delay="2500" data-animation="false" data-test="toast" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header text-white" data-dismiss="toast" aria-label="Close">
+            <div class="toast-text"></div>
+            </div>
+        </div>
+        </li>
+    </div>
+    <div data-controller="client-events"></div>
+    <div data-controller="action-on-event" data-action="message-to-event-handler:close-modal@window->action-on-event#closeModal">
+    </div>
+
     </body>
 </html>
